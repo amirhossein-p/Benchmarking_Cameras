@@ -1,0 +1,160 @@
+modelMaxSize = 3500000
+typeModel = 'Conv2D' # 'Conv2D' , 'DepthwiseConv2D' , 'FullyConnected'
+
+blocksS = 2
+blocksE = 6
+blocksI = 1
+
+filtersS = 34
+filtersE = 42
+filtersI = 4
+
+imagesS = 16
+imagesE = 224
+imagesI = 52
+
+outputsS = 2
+outputsE = 10
+outputsI = 4
+-------------------------------------------------------------------
+models/Conv2D_2_34_16_2_12480.h5 - 69.664 - saved
+models/Conv2D_2_38_16_2_15316.h5 - 80.976 - saved
+models/Conv2D_2_42_16_2_18440.h5 - 93.44 - saved
+models/Conv2D_2_34_68_2_31044.h5 - 143.92 - saved
+models/Conv2D_3_34_68_2_26182.h5 - 127.928 - saved
+models/Conv2D_4_34_68_2_33356.h5 - 166.368 - saved
+models/Conv2D_2_38_68_2_36064.h5 - 163.928 - saved
+models/Conv2D_3_38_68_2_31998.h5 - 151.144 - saved
+models/Conv2D_4_38_68_2_41384.h5 - 198.416 - saved
+models/Conv2D_2_42_68_2_41372.h5 - 185.136 - saved
+models/Conv2D_3_42_68_2_38390.h5 - 176.672 - saved
+models/Conv2D_4_42_68_2_50276.h5 - 233.928 - saved
+models/Conv2D_2_34_120_2_72592.h5 - 310.08 - saved
+models/Conv2D_3_34_120_2_37130.h5 - 171.728 - saved
+models/Conv2D_4_34_120_2_35600.h5 - 175.352 - saved
+models/Conv2D_2_38_120_2_82500.h5 - 349.68 - saved
+models/Conv2D_3_38_120_2_44234.h5 - 200.096 - saved
+models/Conv2D_4_38_120_2_43892.h5 - 208.456 - saved
+models/Conv2D_2_42_120_2_92696.h5 - 390.432 - saved
+models/Conv2D_3_42_120_2_51914.h5 - 230.768 - saved
+models/Conv2D_4_42_120_2_53048.h5 - 245.016 - saved
+models/Conv2D_2_34_172_2_137124.h5 - 568.208 - saved
+models/Conv2D_3_34_172_2_51818.h5 - 230.48 - saved
+models/Conv2D_4_34_172_2_39068.h5 - 189.224 - saved
+models/Conv2D_5_34_172_2_44406.h5 - 212.392 - saved
+models/Conv2D_2_38_172_2_154624.h5 - 638.176 - saved
+models/Conv2D_3_38_172_2_60650.h5 - 265.76 - saved
+models/Conv2D_4_38_172_2_47768.h5 - 223.96 - saved
+models/Conv2D_5_38_172_2_55102.h5 - 255.096 - saved
+models/Conv2D_2_42_172_2_172412.h5 - 709.296 - saved
+models/Conv2D_3_42_172_2_70058.h5 - 303.344 - saved
+models/Conv2D_4_42_172_2_57332.h5 - 262.152 - saved
+models/Conv2D_5_42_172_2_66950.h5 - 302.424 - saved
+models/Conv2D_2_34_224_2_224640.h5 - 918.272 - saved
+models/Conv2D_3_34_224_2_75142.h5 - 323.776 - saved
+models/Conv2D_4_34_224_2_45596.h5 - 215.352 - saved
+models/Conv2D_5_34_224_2_46038.h5 - 218.936 - saved
+models/Conv2D_2_38_224_2_252436.h5 - 1029.424 - saved
+models/Conv2D_3_38_224_2_86718.h5 - 370.032 - saved
+models/Conv2D_4_38_224_2_55064.h5 - 253.16 - saved
+models/Conv2D_5_38_224_2_56926.h5 - 262.408 - saved
+models/Conv2D_2_42_224_2_280520.h5 - 1141.728 - saved
+models/Conv2D_3_42_224_2_98870.h5 - 418.592 - saved
+models/Conv2D_4_42_224_2_65396.h5 - 294.424 - saved
+models/Conv2D_5_42_224_2_68966.h5 - 310.488 - saved
+models/Conv2D_2_34_16_6_14660.h5 - 78.336 - saved
+models/Conv2D_2_38_16_6_17752.h5 - 90.672 - saved
+models/Conv2D_2_42_16_6_21132.h5 - 104.16 - saved
+models/Conv2D_2_34_68_6_70352.h5 - 301.104 - saved
+models/Conv2D_3_34_68_6_34890.h5 - 162.752 - saved
+models/Conv2D_4_34_68_6_35536.h5 - 175.096 - saved
+models/Conv2D_2_38_68_6_79996.h5 - 339.648 - saved
+models/Conv2D_3_38_68_6_41730.h5 - 190.064 - saved
+models/Conv2D_4_38_68_6_43820.h5 - 208.168 - saved
+models/Conv2D_2_42_68_6_89928.h5 - 379.344 - saved
+models/Conv2D_3_42_68_6_49146.h5 - 219.68 - saved
+models/Conv2D_4_42_68_6_52968.h5 - 244.696 - saved
+models/Conv2D_2_34_120_6_194996.h5 - 799.68 - saved
+models/Conv2D_3_34_120_6_67734.h5 - 294.128 - saved
+models/Conv2D_4_34_120_6_42268.h5 - 202.024 - saved
+models/Conv2D_2_38_120_6_219304.h5 - 896.88 - saved
+models/Conv2D_3_38_120_6_78438.h5 - 336.896 - saved
+models/Conv2D_4_38_120_6_51344.h5 - 238.264 - saved
+models/Conv2D_2_42_120_6_243900.h5 - 995.232 - saved
+models/Conv2D_3_42_120_6_89718.h5 - 381.968 - saved
+models/Conv2D_4_42_120_6_61284.h5 - 277.96 - saved
+models/Conv2D_2_34_172_6_388592.h5 - 1574.064 - saved
+models/Conv2D_3_34_172_6_111798.h5 - 470.384 - saved
+models/Conv2D_4_34_172_6_52672.h5 - 243.64 - saved
+models/Conv2D_5_34_172_6_47810.h5 - 226.008 - saved
+models/Conv2D_2_38_172_6_435676.h5 - 1762.368 - saved
+models/Conv2D_3_38_172_6_127686.h5 - 533.888 - saved
+models/Conv2D_4_38_172_6_62972.h5 - 284.776 - saved
+models/Conv2D_5_38_172_6_58906.h5 - 270.312 - saved
+models/Conv2D_2_42_172_6_483048.h5 - 1951.824 - saved
+models/Conv2D_3_42_172_6_144150.h5 - 599.696 - saved
+models/Conv2D_4_42_172_6_74136.h5 - 329.368 - saved
+models/Conv2D_5_42_172_6_71154.h5 - 319.224 - saved
+models/Conv2D_2_34_224_6_651140.h5 - 2624.256 - saved
+models/Conv2D_3_34_224_6_181770.h5 - 750.272 - saved
+models/Conv2D_4_34_224_6_72256.h5 - 321.976 - saved
+models/Conv2D_5_34_224_6_52706.h5 - 245.592 - saved
+models/Conv2D_2_38_224_6_729112.h5 - 2936.112 - saved
+models/Conv2D_3_38_224_6_205890.h5 - 846.704 - saved
+models/Conv2D_4_38_224_6_84860.h5 - 372.328 - saved
+models/Conv2D_5_38_224_6_64378.h5 - 292.2 - saved
+models/Conv2D_2_42_224_6_807372.h5 - 3249.12 - saved
+models/Conv2D_3_42_224_6_230586.h5 - 945.44 - saved
+models/Conv2D_4_42_224_6_98328.h5 - 426.136 - saved
+models/Conv2D_5_42_224_6_77202.h5 - 343.416 - saved
+models/Conv2D_2_34_16_10_16840.h5 - 87.04 - saved
+models/Conv2D_2_38_16_10_20188.h5 - 100.4 - saved
+models/Conv2D_2_42_16_10_23824.h5 - 114.912 - saved
+models/Conv2D_2_34_68_10_109660.h5 - 458.32 - saved
+models/Conv2D_3_34_68_10_43598.h5 - 197.568 - saved
+models/Conv2D_4_34_68_10_37716.h5 - 183.8 - saved
+models/Conv2D_2_38_68_10_123928.h5 - 515.36 - saved
+models/Conv2D_3_38_68_10_51462.h5 - 228.976 - saved
+models/Conv2D_4_38_68_10_46256.h5 - 217.896 - saved
+models/Conv2D_2_42_68_10_138484.h5 - 573.552 - saved
+models/Conv2D_3_42_68_10_59902.h5 - 262.688 - saved
+models/Conv2D_4_42_68_10_55660.h5 - 255.448 - saved
+models/Conv2D_2_34_120_10_317400.h5 - 1289.28 - saved
+models/Conv2D_3_34_120_10_98338.h5 - 416.528 - saved
+models/Conv2D_4_34_120_10_48936.h5 - 228.68 - saved
+models/Conv2D_2_38_120_10_356108.h5 - 1444.08 - saved
+models/Conv2D_3_38_120_10_112642.h5 - 473.696 - saved
+models/Conv2D_4_38_120_10_58796.h5 - 268.056 - saved
+models/Conv2D_2_42_120_10_395104.h5 - 1600.032 - saved
+models/Conv2D_3_42_120_10_127522.h5 - 533.168 - saved
+models/Conv2D_4_42_120_10_69520.h5 - 310.888 - saved
+models/Conv2D_2_34_172_10_640060.h5 - 2579.92 - saved
+models/Conv2D_3_34_172_10_171778.h5 - 710.288 - saved
+models/Conv2D_4_34_172_10_66276.h5 - 298.04 - saved
+models/Conv2D_5_34_172_10_51214.h5 - 239.608 - saved
+models/Conv2D_2_38_172_10_716728.h5 - 2886.56 - saved
+models/Conv2D_3_38_172_10_194722.h5 - 802.016 - saved
+models/Conv2D_4_38_172_10_78176.h5 - 345.576 - saved
+models/Conv2D_5_38_172_10_62710.h5 - 285.512 - saved
+models/Conv2D_2_42_172_10_793684.h5 - 3194.352 - saved
+models/Conv2D_3_42_172_10_218242.h5 - 896.048 - saved
+models/Conv2D_4_42_172_10_90940.h5 - 396.568 - saved
+models/Conv2D_5_42_172_10_75358.h5 - 336.024 - saved
+models/Conv2D_2_34_224_10_1077640.h5 - 4330.24 - saved
+models/Conv2D_2_34_224_10_1077640.h5 - 4330.24 - removed
+models/Conv2D_3_34_224_10_288398.h5 - 1176.768 - saved
+models/Conv2D_4_34_224_10_98916.h5 - 428.6 - saved
+models/Conv2D_5_34_224_10_59374.h5 - 272.248 - saved
+models/Conv2D_2_38_224_10_1205788.h5 - 4842.8 - saved
+models/Conv2D_2_38_224_10_1205788.h5 - 4842.8 - removed
+models/Conv2D_3_38_224_10_325062.h5 - 1323.376 - saved
+models/Conv2D_4_38_224_10_114656.h5 - 491.496 - saved
+models/Conv2D_5_38_224_10_71830.h5 - 321.992 - saved
+models/Conv2D_2_42_224_10_1334224.h5 - 5356.512 - saved
+models/Conv2D_2_42_224_10_1334224.h5 - 5356.512 - removed
+models/Conv2D_3_42_224_10_362302.h5 - 1472.288 - saved
+models/Conv2D_4_42_224_10_131260.h5 - 557.848 - saved
+models/Conv2D_5_42_224_10_85438.h5 - 376.344 - saved
+132
+
+
