@@ -1,4 +1,4 @@
-# Benchmarking_Cameras
+# Benchmarking Cameras
 Codes related to Benchmarking machine vision cameras. <br />
 Model generator code uses Keras and crates a range of CNN models based on given hyper-parameters. <br />
 Hyper-parameters for Conv2d models:
